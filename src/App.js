@@ -4,7 +4,8 @@ import Navbar from "./scenes/Navbar"
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import { motion } from "framer-motion";
-
+import LineGradient from "./components/LineGradient";
+import MySkills from "./scenes/MySkills";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -45,6 +46,10 @@ function App() {
         >
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
+       </div>
+       <LineGradient></LineGradient>
+       <div className="w-5/6 mx-auto md:h-full">
+        <MySkills></MySkills>
        </div>
     </div>
   );
