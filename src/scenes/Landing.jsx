@@ -19,15 +19,15 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/WhatsApp Image 2023-05-12 at 13.06.57.png"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[200px] md:max-w-[400px]"
+              src="assets/mica.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/WhatsApp Image 2023-05-12 at 13.06.57.png"
+            className="z-10 w-full max-w-[200px] md:max-w-[400px]"
+            src="assets/mica.png"
           />
         )}
       </div>
@@ -48,7 +48,7 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-5xl font-playfair z-10 text-center md:text-start">
             Mica {""}
             <span
-              className="xs:relative xs:text-grey xs:font-semibold z-20 xs:before:content-brush
+              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
               Savournin
