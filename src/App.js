@@ -6,6 +6,10 @@ import Landing from "./scenes/Landing";
 import { motion } from "framer-motion";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Proyects";
+import Testimonials from "./scenes/Testimonials";
+import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -51,6 +55,19 @@ function App() {
        <div className="w-5/6 mx-auto md:h-full">
         <MySkills></MySkills>
        </div>
+       {/* <LineGradient/> */}
+       <div className="w-5/6 mx-auto">
+        <Projects/>
+       </div>
+       <LineGradient/>
+       <div className="w-5/6 mx-auto">
+        <Testimonials/>
+       </div>
+       <LineGradient/>
+       <div className="w-5/6 mx-auto">
+        <Contact/>
+       </div>
+       <Footer/>
     </div>
   );
 }
