@@ -45,7 +45,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="text-5xl font-playfair z-10 text-center md:text-start">
             Mica {""}
             <span
               className="xs:relative xs:text-grey xs:font-semibold z-20 xs:before:content-brush
@@ -59,7 +59,6 @@ const Landing = ({ setSelectedPage }) => {
           Hi! I'm Micaela Savournin, I'm 23 years old. Recently, I graduated from the Soy Henry bootcamp, where I specialized as a full stack web developer. Currently, I'm expanding my skills and knowledge by studying the "Certified Tech Developer" program at Digital House.
           <br />
 <br />
-Since I was a child, I've always been fascinated by the world of computers and software. It was that curiosity that drove me to dive into the programming world.
           </p>
         </motion.div>
 
